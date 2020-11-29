@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <style>
+            #alineadoalcentro 
+                {
+                    text-align: center;
+                }
+            #alineadoizquierda
+                {
+                    margin-left: 610px;
+                    margin-top: 3px;
+                }
+        </style>
+        <meta charset="utf-8">
+        <title>
+            Actividad Obligatoria Nº2 Javascript
+        </title>
+    </head>
+    <body>
+        <script>
+            for(i=11;i>=9;i--)
+            {
+                document.write("<div id='alineadoalcentro'><br><b>La tabla del "+ i +" :</b></div>")
+                    for(j=0;j<=10;j++)
+                    {
+                        document.write("<div id='alineadoizquierda'>"+ i+ " x " +j+ " : " + i * j +"</div>")
+                    }
+
+            }
+       
+        </script>
+    </body>
+</html>
